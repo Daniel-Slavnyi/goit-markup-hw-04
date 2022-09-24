@@ -22,20 +22,28 @@
       <div class="container flex-wraper">
         <nav class="header-nav">
           <a href="./index.html" class="logo"> <span class="logo-part">Web</span>Studio </a>
-          <ul class="header-list">
-            <li class="header-item"><a href="./index.html" class="nav-link">Студія</a></li>
-            <li class="header-item">
-              <a href="./portfolio.html" class="nav-link curent">Портфоліо</a>
-            </li>
+          <ul class="header-list flex-wraper">
+            <li class="header-item"><a href="./index.html" class="nav-link curent">Студія</a></li>
+            <li class="header-item"><a href="./portfolio.html" class="nav-link">Портфоліо</a></li>
             <li class="header-item"><a href="#" class="nav-link">Контакти</a></li>
           </ul>
         </nav>
         <ul class="header-list">
           <li class="item">
-            <a href="mailto:info@devstudio.com" class="nav-contact">info@devstudio.com</a>
+            <a href="mailto:info@devstudio.com" class="nav-contact">
+              <svg class="icon" width="16px" height="12px">
+                <use href="./img/sprite.svg#icon-msg"></use>
+              </svg>
+              info@devstudio.com
+            </a>
           </li>
           <li class="item">
-            <a href="tel:+380961111111" class="nav-contact">+38 096 111 11 11</a>
+            <a href="tel:+380961111111" class="nav-contact">
+              <svg class="icon" width="10px" height="16px">
+                <use href="./img/sprite.svg#icon-smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
           </li>
         </ul>
       </div>
@@ -183,11 +191,12 @@
       </section>
     </main>
     <footer class="contacts">
-      <div class="container">
-        <a href="/goit-markup-hw-01/index.html" class="logo">
+      <div class="container d-flex">
+        <div class="wrapper-contacts">
+          <a href="/goit-markup-hw-01/index.html" class="logo">
           <span class="logo-part">Web</span>Studio
         </a>
-        <address>
+        <address class="contacts-adress">
           <ul class="contacts-list">
             <li class="contacts-item">
               <a
@@ -206,6 +215,42 @@
             </li>
           </ul>
         </address>
+        </div>
+        <div class="wrapper-social">
+        <h3 class="social-title">
+          приєднуйтесь
+        </h3>
+        <ul class="worker-icon">
+          <li class="icon-item">
+            <a href="#" class="link-footer">
+              <svg class="footer-icon" width="20px" height="20px">
+                <use href="./img/sprite.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="#" class="link-footer">
+              <svg class="footer-icon" width="20px" height="20px">
+                <use href="./img/sprite.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="#" class="link-footer">
+              <svg class="footer-icon" width="20px" height="20px">
+                <use href="./img/sprite.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="icon-item">
+            <a href="#" class="link-footer">
+              <svg class="footer-icon" width="20px" height="20px">
+                <use href="./img/sprite.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
       </div>
     </footer>
   </body>
