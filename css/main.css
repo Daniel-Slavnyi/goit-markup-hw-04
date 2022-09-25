@@ -329,6 +329,7 @@ img {
 /*============================ contact =========================*/
 .d-flex {
     display: flex;
+    align-items: baseline;
 }
 .contacts {
   padding: 60px 0;
@@ -358,6 +359,7 @@ img {
 }
 .social-title {
     margin-bottom: 20px;
+    font-weight: 700;
     color: rgba(255, 255, 255, 1);
 }
 .link-footer {
